@@ -37,47 +37,47 @@ export default function Slide() {
         className="mySwiper"
       >
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
-            <div className='w-full h-[100vh] bg-red-500'>
+            <div className='w-full h-full'>
                <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>

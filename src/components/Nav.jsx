@@ -13,21 +13,31 @@ export default function Nav() {
       {/* ------------ Desktop Navbar ------------- */}
       <nav className='w-full h-[70px] md:flex hidden fixed top-0 left-0 bg-green-600 z-50'>
         <div className='w-[20%] h-full px-10'>
-          <img src="public/Logo/logo.png" alt="" className='w-[70px] h-[70px] ' />
+          <img src="public/Logo/logo.png" alt="" className='w-[70px] h-[70px] '/>
         </div>
         <div className='w-[70%] h-full'>
           <ul className='h-full flex justify-evenly items-center text-xl font-medium'>
-            <li className='cursor-pointer hover:text-red-500'>Home</li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/'}>Home</Link>
+            </li>
             <li className='cursor-pointer hover:text-red-500'>
               <Link to={'/shop'}>Shop</Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500'>Blog</li>
             <li className='cursor-pointer hover:text-red-500'>
-              
+              <Link to={'/blog'}>Blog</Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500'>Careers</li>
-            <li className='cursor-pointer hover:text-red-500'>FAQ's</li>
-            <li className='cursor-pointer hover:text-red-500'>Contact</li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/about'}>About</Link>
+            </li>
+           <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/careers'}>Careers</Link>
+            </li>
+           <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/faq'}>FAQ's</Link>
+            </li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/contact'}>Contact</Link>
+            </li>
           </ul>
         </div>
         <div className='w-[15%] h-full flex justify-evenly items-center text-3xl '>
@@ -50,13 +60,27 @@ export default function Nav() {
         {/* Sidebar */}
         <div className={`h-full shadow-2xl bg-white/10 z-50 fixed top-16 left-0 transition-all duration-300 overflow-hidden ${menu ? 'w-[50%]' : 'w-0'}`}>
           <ul className='text-green-600 p-6 text-2xl space-y-4 font-bold'>
-            <li className='cursor-pointer hover:text-red-500'>Home</li>
-            <li className='cursor-pointer hover:text-red-500'>Shop</li>
-            <li className='cursor-pointer hover:text-red-500'>Blog</li>
-            <li className='cursor-pointer hover:text-red-500'>About</li>
-            <li className='cursor-pointer hover:text-red-500'>Careers</li>
-            <li className='cursor-pointer hover:text-red-500'>FAQ's</li>
-            <li className='cursor-pointer hover:text-red-500'>Contact</li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/'}>Home</Link>
+            </li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/shop'}>Shop</Link>
+            </li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/blog'}>Blog</Link>
+            </li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/about'}>About</Link>
+            </li>
+           <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/careers'}>Careers</Link>
+            </li>
+           <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/faq'}>FAQ's</Link>
+            </li>
+            <li className='cursor-pointer hover:text-red-500'>
+              <Link to={'/contact'}>Contact</Link>
+            </li>
           </ul>
         </div>
 
