@@ -27,17 +27,17 @@ export default function Form() {
 
             </div>
             <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-5' data-aos="zoom-in">
-              <div className=' w-full rounded-3xl overflow-hidden'>
-                    <img src="public/card/card1.png" alt="" className='  object-fit-cover'/>
+              <div className=' w-full overflow-hidden'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
               </div>
-                            <div className=' w-full rounded-3xl overflow-hidden'>
-                    <img src="public/card/card1.png" alt="" className='  object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
               </div>
-                            <div className=' w-full rounded-3xl overflow-hidden'>
-                    <img src="public/card/card1.png" alt="" className='  object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
               </div>
-                            <div className=' w-full rounded-3xl overflow-hidden'>
-                    <img src="public/card/card1.png" alt="" className='  object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
               </div>
             </div>
             <div className='w-full mt-10 text-center flex justify-center' data-aos="zoom-in">
