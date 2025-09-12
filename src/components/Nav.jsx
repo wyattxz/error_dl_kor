@@ -49,7 +49,7 @@ export default function Nav() {
       {/* ------------ Mobile Navbar ------------- */}
       <nav className='w-full h-[70px] shadow-md flex  md:hidden fixed top-0 left-0 z-50 bg-green-600'>
         <div className='w-[50%] px-4 py-2'>
-          <img src="public/Logo/logo.png" alt="" className='h-full w-[50px]' />
+          <img src="logo/logo.png" alt="" className='h-full w-[50px]' />
         </div>
         <div className='w-[50%] flex justify-end px-5 items-center text-3xl'>
           <div onClick={() => setMenu(!menu)}>
