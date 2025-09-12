@@ -22,7 +22,7 @@ export default function Slidebar() {
                     {/* <img src="/banner/slidebar.png" alt="" className="w-full h-full object-cover" /> */}
                     <Slide/>
                 </div>
-                <div className="w-full h-full bg-black/60 absolute top-0 z-30"></div>
+                <div className="w-full h-full bg-black/60 absolute top-0 z-40"></div>
                 <div className="lg:w-[60%] lg:h-[60%] w-[80%] h-[80%] md:h-[50%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
                     <h1
                         className="lg:text-6xl md:text-6xl text-4xl text-center text-red-600 font-medium"
@@ -30,7 +30,7 @@ export default function Slidebar() {
                     >
                         Timeless Fashion for the Modern Wardrobe
                     </h1>
-                    <div className="lg:w-[60%] w-[110%] absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
+                    <div className="lg:w-[60%] w-[110%] absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <p className="lg:text-sm  text-[15px] text-center text-white/50" >
                             Discover timeless fashion for Men, Women, and Kids - crafted for comfort, designed for confidence.
                         </p>
