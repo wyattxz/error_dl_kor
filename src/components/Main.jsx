@@ -38,7 +38,7 @@ export default function Main() {
                  
                  <Dilivery/>
                  
-                 <Slide/>
+                 {/* <Slide/> */}
             </div>
 
         </>
