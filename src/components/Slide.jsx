@@ -38,47 +38,47 @@ export default function Slide() {
       >
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <SwiperSlide>
             <div className='w-full h-full'>
-               <img src="public/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
+               <img src="/banner/slidebar.png" alt="" className='w-full h-full object-fit-cover'/>
             </div>
         </SwiperSlide>
         <div className="autoplay-progress" slot="container-end">

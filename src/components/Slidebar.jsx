@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Slide from "./Slide";
 
 export default function Slidebar() {
     useEffect(() => {
@@ -18,7 +19,8 @@ export default function Slidebar() {
             </div>
             <div className="w-full relative">
                 <div className="lg:h-[90vh] h-[70vh]">
-                    <img src="/banner/slidebar.png" alt="" className="w-full h-full object-cover" />
+                    {/* <img src="/banner/slidebar.png" alt="" className="w-full h-full object-cover" /> */}
+                    <Slide/>
                 </div>
                 <div className="w-full h-full bg-black/60 absolute top-0"></div>
                 <div className="lg:w-[60%] lg:h-[60%] w-[80%] h-[80%] md:h-[50%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
