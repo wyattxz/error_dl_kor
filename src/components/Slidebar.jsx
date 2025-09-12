@@ -22,19 +22,19 @@ export default function Slidebar() {
                     {/* <img src="/banner/slidebar.png" alt="" className="w-full h-full object-cover" /> */}
                     <Slide/>
                 </div>
-                <div className="w-full h-full bg-black/60 absolute top-0"></div>
-                <div className="lg:w-[60%] lg:h-[60%] w-[80%] h-[80%] md:h-[50%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div className="w-full h-full bg-black/60 absolute top-0 z-30"></div>
+                <div className="lg:w-[60%] lg:h-[60%] w-[80%] h-[80%] md:h-[50%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
                     <h1
                         className="lg:text-6xl md:text-6xl text-4xl text-center text-red-600 font-medium"
                         data-aos="zoom-in"
                     >
                         Timeless Fashion for the Modern Wardrobe
                     </h1>
-                    <div className="lg:w-[60%] w-[110%] absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <div className="lg:w-[60%] w-[110%] absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
                         <p className="lg:text-sm  text-[15px] text-center text-white/50" >
                             Discover timeless fashion for Men, Women, and Kids - crafted for comfort, designed for confidence.
                         </p>
-                        <div className="w-full pt-16 flex justify-center">
+                        <div className="w-full pt-16 flex justify-center z-40">
                             <div className="bg-red-600 text-white lg:px-10 px-5 py-3 lg:text-xl text-[17px] font-medium rounded-[25px] cursor-pointer">
                                 Explore the Collection
                             </div>
