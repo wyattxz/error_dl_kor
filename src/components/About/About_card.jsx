@@ -6,7 +6,7 @@ export default function About_card() {
       <div className='grid grid-cols-1 lg:grid-cols-3 py-5'>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
@@ -16,7 +16,7 @@ export default function About_card() {
             </div>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
@@ -26,7 +26,7 @@ export default function About_card() {
             </div>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
@@ -36,7 +36,7 @@ export default function About_card() {
             </div>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
@@ -46,7 +46,7 @@ export default function About_card() {
             </div>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
@@ -56,7 +56,7 @@ export default function About_card() {
             </div>
             <div className='w-[90%] h-[500px] md:h-[650px] lg:h-[600px] shadow-lg m-auto py-5 rounded-3xl '>
                <div className='w-full h-[50%] md:h-[70%] lg:h-[60%] overflow-hidden hover:overflow-hidden hover:rounded-t-3xl rounded-t-3xl'>
-                <img src="public/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
+                <img src="/card/card1.png" alt="" className='w-full h-full object-fit-cover hover:scale-110 '/>
                </div>
                <div className='w-full h-[60%] px-5 py-5 '>
                 <h1 className='text-xl font-bold'>Top 5 Accessories That Elevate Any Look</h1>
