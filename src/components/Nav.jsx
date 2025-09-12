@@ -13,7 +13,7 @@ export default function Nav() {
       {/* ------------ Desktop Navbar ------------- */}
       <nav className='w-full h-[70px] md:flex hidden fixed top-0 left-0 bg-green-600 z-50'>
         <div className='w-[20%] h-full px-10'>
-          <img src="public/Logo/logo.png" alt="" className='w-[70px] h-[70px] '/>
+          <img src="/Logo/logo.png" alt="" className='w-[70px] h-[70px] '/>
         </div>
         <div className='w-[70%] h-full'>
           <ul className='h-full flex justify-evenly items-center text-xl font-medium'>
