@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Slide from "../slide";
+import Slide from "../Slide";
 
 export default function Slidebar() {
     useEffect(() => {
