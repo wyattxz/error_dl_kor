@@ -4,6 +4,8 @@ import Form from "./Form";
 import New from "./New";
 import Ourcategories from "./Ourcategories";
 import Slide from "./slide";
+import Slide from "./slide";
+
 
 export default function Main() {
     return (
