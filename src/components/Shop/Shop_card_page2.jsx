@@ -26,7 +26,7 @@ export default function Shop_card() {
     <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2 px-5" data-aos="zoom-in">
                 <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>   
-                        <img src="/card/card1.png" alt="" className="w-full object-cover hover:scale-110 " />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -47,7 +47,7 @@ export default function Shop_card() {
                 </div>
                 <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -67,7 +67,7 @@ export default function Shop_card() {
                 </div>
                  <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -87,7 +87,7 @@ export default function Shop_card() {
                 </div>
                  <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -107,7 +107,7 @@ export default function Shop_card() {
                 </div>
                  <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -127,7 +127,7 @@ export default function Shop_card() {
                 </div>
                  <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -147,7 +147,7 @@ export default function Shop_card() {
                 </div>
                  <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>

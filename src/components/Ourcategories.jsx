@@ -22,7 +22,7 @@ export default function Ourcategories() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full xl:w-[80%] xl:m-auto" data-aos="zoom-in">
                 <div className='w-full grid grid-cols-1 relative mb-16 lg:mb-24 ' >
                     <div className='lg:h-[350px] xl:h-[420px] w-full h-[250px] rounded-[25px] overflow-hidden border-2 border-black'>
-                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  hover:scale-110  hover:scale-110' />
+                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover ' />
                     </div>
                     <div className='bg-green-400 lg:w-[81%] w-[91%] h-[100px] absolute lg:left-8 lg:top-80 xl:top-96 top-52 left-4 rounded-[15px] flex justify-center flex-wrap'>
                         <div className='w-[70%] text-center py-2'>
@@ -33,7 +33,7 @@ export default function Ourcategories() {
                 </div>
                 <div className='w-full grid grid-cols-1 relative mb-16 lg:mb-24 '>
                     <div className='lg:h-[350px] xl:h-[420px] w-full h-[250px] rounded-[25px] overflow-hidden border-2 border-black'>
-                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  hover:scale-110' />
+                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  ' />
                     </div>
                     <div className='bg-green-400 lg:w-[81%] w-[91%] h-[100px] absolute lg:left-8 lg:top-80 xl:top-96 top-52 left-4 rounded-[15px] flex justify-center flex-wrap'>
                         <div className='w-[70%] text-center py-2'>
@@ -44,7 +44,7 @@ export default function Ourcategories() {
                 </div>
                 <div className='w-full grid grid-cols-1 relative mb-16 lg:mb-24 '>
                     <div className='lg:h-[350px] xl:h-[420px] w-full h-[250px] rounded-[25px] overflow-hidden border-2 border-black'>
-                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  hover:scale-110' />
+                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  ' />
                     </div>
                     <div className='bg-green-400 lg:w-[81%] w-[91%] h-[100px] absolute lg:left-8 lg:top-80 xl:top-96 top-52 left-4 rounded-[15px] flex justify-center flex-wrap'>
                         <div className='w-[70%] text-center py-2'>
@@ -55,7 +55,7 @@ export default function Ourcategories() {
                 </div>
                 <div className='w-full grid grid-cols-1 relative mb-16 lg:mb-24 '>
                     <div className='lg:h-[350px] xl:h-[420px] w-full h-[250px] rounded-[25px] overflow-hidden border-2 border-black'>
-                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  hover:scale-110' />
+                        <img src="/card/card1.png" alt="" className='w-full h-full object-cover  ' />
                     </div>
                     <div className='bg-green-400 lg:w-[81%] w-[91%] h-[100px] absolute lg:left-8 lg:top-80 xl:top-96 top-52 left-4 rounded-[15px] flex justify-center flex-wrap'>
                         <div className='w-[70%] text-center py-2'>

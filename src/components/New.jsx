@@ -14,8 +14,8 @@ export default function New() {
         <>
             <div className="w-full mt-5 grid grid-cols-2 md:grid-cols-3 gap-2">
                 <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
-                    <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                    <div className="">
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -35,7 +35,7 @@ export default function New() {
                 </div>
                 <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -55,7 +55,7 @@ export default function New() {
                 </div>
                 <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  " />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
