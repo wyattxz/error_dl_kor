@@ -22,22 +22,23 @@ export default function Form() {
 
                 <form action="" className='w-full h-[50px] md:flex md:w-[80%] md:m-auto md:mt-8 lg:w-[50%]'>
                     <input type="text" placeholder='ENTER YOUR EMAIL  *' className='w-full h-full md:w-[70%] shadow-2xl border-2 border-b-green-600 px-3 rounded-lg  hover:border-green-500' />
-                    <button type='submit' className=' border-gray-300 bg-red-600 w-full h-[45px] md:w-[25%] md:mt-1 md:ml-5 mt-12 rounded-lg text-lg font-medium text-white'>SUBSCRIBE</button>
+                    <button type='submit' className='shadow-2xl bg-white/40 w-full h-[45px] md:w-[25%] md:mt-1 md:ml-5 mt-12 rounded-2xl text-lg font-medium text-black hover:bg-red-500  transition duration-500 ease-in-out 
+             cursor-pointer'>SUBSCRIBE</button>
                 </form>
 
             </div>
-            <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-5' data-aos="zoom-in">
-              <div className=' w-full overflow-hidden'>
-                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
+            <div className='w-full grid grid-cols-2 md:grid-cols-4 gap-5 overflow-hidden' data-aos="zoom-in">
+              <div className='overflow-hidden rounded-3xl'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover hover:scale-110 '/>
               </div>
-                            <div className=' w-full  overflow-hidden'>
-                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden rounded-3xl'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover hover:scale-110 '/>
               </div>
-                            <div className=' w-full  overflow-hidden'>
-                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden rounded-3xl'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover hover:scale-110 '/>
               </div>
-                            <div className=' w-full  overflow-hidden'>
-                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover'/>
+                            <div className=' w-full  overflow-hidden rounded-3xl'>
+                    <img src="/card/card1.png" alt="" className=' rounded-3xl object-fit-cover hover:scale-110 '/>
               </div>
             </div>
             <div className='w-full mt-10 text-center flex justify-center' data-aos="zoom-in">

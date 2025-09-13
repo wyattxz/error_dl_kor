@@ -13,9 +13,9 @@ export default function New() {
     return (
         <>
             <div className="w-full mt-5 grid grid-cols-2 md:grid-cols-3 gap-2">
-                <div className="my-3 shadow-md rounded-md" data-aos="zoom-in">
+                <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -33,9 +33,9 @@ export default function New() {
                         <li className="border-2 cursor-pointer px-1 py-1 rounded-md bg-green-600 text-white font-medium">Green</li>
                     </ul>
                 </div>
-                <div className="my-3 shadow-md rounded-md" data-aos="zoom-in">
+                <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -53,9 +53,9 @@ export default function New() {
                         <li className="border-2 cursor-pointer px-1 py-1 rounded-md bg-green-600 text-white font-medium">Green</li>
                     </ul>
                 </div>
-                <div className="my-3 shadow-md rounded-md" data-aos="zoom-in">
+                <div className="my-3 shadow-md rounded-md overflow-hidden" data-aos="zoom-in">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>

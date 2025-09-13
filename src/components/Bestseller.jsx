@@ -20,9 +20,9 @@ export default function Bestseller() {
         
     </div>
     <div className="w-full grid grid-cols-2 md:grid-cols-3 gap-2" data-aos="zoom-in">
-                <div className="my-3 shadow-md rounded-md">
+                <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>   
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -41,9 +41,9 @@ export default function Bestseller() {
                     </ul>
                     
                 </div>
-                <div className="my-3 shadow-md rounded-md">
+                <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover  hover:scale-110" />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>
@@ -61,9 +61,9 @@ export default function Bestseller() {
                         <li className="border-2 cursor-pointer px-1 py-1 rounded-md bg-green-600 text-white font-medium">Green</li>
                     </ul>
                 </div>
-                 <div className="my-3 shadow-md rounded-md">
+                 <div className="my-3 shadow-md rounded-md overflow-hidden">
                     <div>
-                        <img src="/card/card1.png" alt="" className="w-full object-cover" />
+                        <img src="/card/card1.png" alt="" className="w-full object-cover hover:scale-110"   />
                     </div>
                     <div className="pt-3 ">
                         <h1 className="text-[18px] font-medium">Flowline Dresses</h1>

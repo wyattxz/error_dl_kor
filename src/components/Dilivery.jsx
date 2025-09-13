@@ -2,10 +2,20 @@ import { MdDeliveryDining } from "react-icons/md";
 import { TbTruckDelivery } from "react-icons/tb";
 import { MdOutlinePayment } from "react-icons/md";
 import { RiCustomerService2Fill } from "react-icons/ri";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Dilivery() {
+   useEffect(() => {
+                  AOS.init({
+                      duration: 1600, // animation duration in ms
+                      easing: "ease-in-out",
+                      once: true, // whether animation should happen only once
+                  });
+              }, []);
     return (
-        <div className="border-2 border-gray-100 mt-20 grid md:grid-cols-4">
+        <div className="border-2 border-gray-100 mt-20 grid md:grid-cols-4" data-aos="zoom-in">
             <div className="w-full py-5 border-b-2 border-red-200 text-center px-3">
                 <div className="h-[150px] md:h-[250px] flex justify-center items-center flex-wrap">
                   <span className="text-6xl md:text-5xl text-red-600"><TbTruckDelivery /></span>
