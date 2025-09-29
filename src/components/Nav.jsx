@@ -51,18 +51,18 @@ export default function Nav() {
         </div>
 
         {/* Sidebar */}
-        <div className={`h-full shadow-lg shadow-gray-500 bg-gradient-to-t to-gray-400 from-gray-600 z-50 fixed top-16 left-0 transition-all duration-300 overflow-hidden ${menu ? 'w-[50%]' : 'w-0'}`}>
+        <div className={`h-full shadow-lg shadow-gray-500 bg-gradient-to-b to-white/50 from-pink-400 z-50 fixed top-16 left-0 transition-all duration-300 overflow-hidden ${menu ? 'w-[50%]' : 'w-0'}`}>
           <ul className='text-white p-6 text-3xl space-y-5 font-bold '>
-            <li className='cursor-pointer hover:text-pink-400 hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
+            <li className='cursor-pointer  hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
               <Link to={'/'}>Home</Link>
             </li>
-            <li className='cursor-pointer hover:text-pink-400 hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
+            <li className='cursor-pointer  hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
               <Link to={'/shop'}>Shop</Link>
             </li>
-            <li className='cursor-pointer hover:text-pink-400 hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
+            <li className='cursor-pointer  hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
               <Link to={'/about'}>About</Link>
             </li>
-            <li className='cursor-pointer hover:text-pink-400 hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
+            <li className='cursor-pointer  hover:scale-110 p-2 text-center border-2 border-pink-400 rounded-3xl shadow-lg shadow-pink-400'>
               <Link to={'/contact'}>Contact</Link>
             </li>
           </ul>
