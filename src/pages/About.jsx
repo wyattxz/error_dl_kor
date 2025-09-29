@@ -1,12 +1,11 @@
 import React from 'react'
-import About_slide from '../components/About/About_slide'
-import About_card from '../components/About/About_card'
+import About_page from '../components/About/About_page'
+
 
 export default function About() {
   return (
     <div>
-      <About_slide/>
-      <About_card/>
+        <About_page/>
     </div>
   )
 }
