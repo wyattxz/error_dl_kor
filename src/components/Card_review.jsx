@@ -34,7 +34,7 @@ export default function Card_review() {
             </div>
             <p className='text-black/60 font-medium text-center py-4' data-aos="zoom-in-down" data-aos-delay="700">168 customer ratings</p>
             <div className="w-full" data-aos="zoom-in-down" data-aos-delay="400">
-                <div className="w-full flex gap-2 mt-2
+                <div className="w-full flex gap-2 py-2
                                 md:gap-0 md:px-10">
                     <div className="w-[15%] text-blue-500 font-bold text-md">5 Star</div>
                     <div className="w-[85%] bg-white/90 rounded-3xl flex">
@@ -42,7 +42,7 @@ export default function Card_review() {
                         <p className="w-[15%] text-black text-center">84%</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-2 mt-2
+                <div className="w-full flex gap-2 py-2
                                 md:gap-0 md:px-10 ">
                     <div className="w-[15%] text-blue-500 font-bold text-md">4 Star</div>
                     <div className="w-[85%] bg-white/90 rounded-3xl flex">
@@ -52,7 +52,7 @@ export default function Card_review() {
                                       xl:ml-64">9%</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-2 mt-2
+                <div className="w-full flex gap-2 py-2
                                 md:gap-0 md:px-10">
                     <div className="w-[15%] text-blue-500 font-bold text-md">3 Star</div>
                     <div className="w-[85%] bg-white/90 rounded-3xl flex">
@@ -62,7 +62,7 @@ export default function Card_review() {
                                       xl:ml-[60%]">4%</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-2 mt-2
+                <div className="w-full flex gap-2 py-2
                                 md:gap-0 md:px-10">
                     <div className="w-[15%] text-blue-500 font-bold text-md">2 Star</div>
                     <div className="w-[85%] bg-white/90 rounded-3xl flex">
@@ -71,7 +71,7 @@ export default function Card_review() {
                                       md:ml-96">2%</p>
                     </div>
                 </div>
-                <div className="w-full flex gap-2 mt-2
+                <div className="w-full flex gap-2 py-2
                                 md:gap-0 md:px-10">
                     <div className="w-[15%] text-blue-500 font-bold text-md">1 Star</div>
                     <div className="w-[85%] bg-white/90 rounded-3xl flex">
