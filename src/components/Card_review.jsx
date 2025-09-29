@@ -20,7 +20,7 @@ export default function Card_review() {
     <div className='w-full px-10 py-10 
                     md:w-[90%] m-auto md:text-center
                     xl:w-[40%] ' data-aos="zoom-in-down" data-aos-delay="300">
-      <div className='h-[400px] grid grid-cols-1 gap-5 overflow-hidden bg-black/5 rounded-3xl shadow-2xl shadow-black/20'>
+      <div className='h-[400px] grid grid-cols-1 gap-5  bg-black/5 rounded-3xl shadow-2xl shadow-black/20'>
          <div className='px-5 py-5 border-2 border-black/50 rounded-3xl '>
             <h1 className='text-black text-center text-2xl font-bold py-2' data-aos="zoom-in-down" data-aos-delay="400">Customer Review</h1>
             <div className="w-[80%] py-2 bg-white/60 shadow-xl shadow-black/20 flex justify-center m-auto text-yellow-400 text-2xl gap-1 rounded-3xl
