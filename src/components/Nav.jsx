@@ -14,7 +14,7 @@ export default function Nav() {
       <nav className='w-full h-[70px] hidden fixed top-0 left-0 bg-gradient-to-bl to-white/50 from-pink-400 shadow-md shadow-gray-300 z-50
                       md:flex '>
         <div className='w-[20%] h-full px-10'>
-          <img src="/Logo/Logo.png" alt="" className='w-[70px] h-[70px] '/>
+          <img src="/logo/logo.png" alt="" className='w-[70px] h-[70px] '/>
         </div>
         <div className='w-[70%] h-full'>
           <ul className='h-full flex justify-evenly items-center text-xl font-medium'>
@@ -42,7 +42,7 @@ export default function Nav() {
       <nav className='w-full h-[64px] flex fixed top-0 left-0 z-50 bg-gradient-to-bl to-white/50 from-pink-400 shadow-md shadow-gray-300
                       md:hidden'>
         <div className='w-[50%] px-4 py-1'>
-          <img src="Logo/Logo.png" alt="" className='h-full w-[60px]' />
+          <img src="/logo/logo.png" alt="" className='h-full w-[60px]' />
         </div>
         <div className='w-[50%] flex justify-end px-4 items-center text-4xl text-white'>
           <div onClick={() => setMenu(!menu)}>
