@@ -47,7 +47,7 @@ export default function Footer() {
         <div className='w-full h-[70%] grid grid-cols-2 gap-5 py-5 
                         md:py-10 md:gap-10
                         xl:px-96'>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl  dark:border-white " data-aos="zoom-in-down" data-aos-delay="300">
                 <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">PRODUCT</h1>
                 <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300" >Overview</li>
@@ -57,7 +57,7 @@ export default function Footer() {
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="1100">Security</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl  dark:border-white " data-aos="zoom-in-down" data-aos-delay="300">
                 <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">RESOURCES</h1>
                 <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">Blog</li>
@@ -66,7 +66,7 @@ export default function Footer() {
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="900">What's new</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl  dark:border-white " data-aos="zoom-in-down" data-aos-delay="300">
                 <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">TEMPLATES</h1>
                 <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">Landing</li>
@@ -76,7 +76,7 @@ export default function Footer() {
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="1100">Dataviz Blocks</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl  dark:border-white " data-aos="zoom-in-down" data-aos-delay="300">
                 <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">COMPANY</h1>
                 <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">About us</li>
