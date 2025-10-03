@@ -30,7 +30,7 @@ export default function Footer() {
               <div className=' w-[80px] h-[80px] m-auto absolute  top-2 left-[39%]
                               md:left-[42%]
                               xl:left-[44%]'>
-                <img src="/Logo/logo.png" alt="" className='w-full h-full'/>
+                <img src="/logo/logo.png" alt="" className='w-full h-full'/>
               </div>
             </div>
             <div className='w-full h-[50%] text-center text-black/70  dark:text-white'>
