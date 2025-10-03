@@ -20,20 +20,20 @@ export default function Footer() {
   return (
     <div>
       <div className='w-full h-[900px] px-5 py-5 '>
-        <div className='w-full h-[30%] border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl
+        <div className='w-full h-[30%] border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl dark:border-white overflow-hidden
                         md:w-[60%] m-auto
                         xl:w-[30%]'
                         data-aos="zoom-in-down" data-aos-delay="300">
             <div className='w-full h-[50%] overflow-hidden relative' 
                   data-aos="zoom-in-down" data-aos-delay="300">
-              <div className='profile1 border-4 border-white'></div>
+              {/* <div className='profile1 border-4 border-white rounded-full'></div> */}
               <div className=' w-[80px] h-[80px] m-auto absolute  top-2 left-[39%]
                               md:left-[42%]
                               xl:left-[44%]'>
-                <img src="/logo/logo.png" alt="" className='w-full h-full'/>
+                <img src="/Logo/logo.png" alt="" className='w-full h-full'/>
               </div>
             </div>
-            <div className='w-full h-[50%] text-center text-black/70'>
+            <div className='w-full h-[50%] text-center text-black/70  dark:text-white'>
                 <p className="py-2"
                   data-aos="zoom-in-down" data-aos-delay="300">Optimize your design process</p>
                 <div className="flex justify-center text-4xl gap-4 py-2">
@@ -44,12 +44,12 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className='w-full h-[70%] grid grid-cols-2 gap-5 py-5
+        <div className='w-full h-[70%] grid grid-cols-2 gap-5 py-5 
                         md:py-10 md:gap-10
                         xl:px-96'>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl" data-aos="zoom-in-down" data-aos-delay="300">
-                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50" data-aos="zoom-in-down" data-aos-delay="300">PRODUCT</h1>
-                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">PRODUCT</h1>
+                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300" >Overview</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="500">Pricing</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="700">Customer Stories</li>
@@ -57,18 +57,18 @@ export default function Footer() {
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="1100">Security</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl" data-aos="zoom-in-down" data-aos-delay="300">
-                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50" data-aos="zoom-in-down" data-aos-delay="300">RESOURCES</h1>
-                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">RESOURCES</h1>
+                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">Blog</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="500">Guides & tutorials</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="700">Help center</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="900">What's new</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl" data-aos="zoom-in-down" data-aos-delay="300">
-                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50" data-aos="zoom-in-down" data-aos-delay="300">TEMPLATES</h1>
-                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">TEMPLATES</h1>
+                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">Landing</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="500">Dashboard</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="700">Log In and Sign Up</li>
@@ -76,9 +76,9 @@ export default function Footer() {
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="1100">Dataviz Blocks</li>
                 </ul>
             </div>
-            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl" data-aos="zoom-in-down" data-aos-delay="300">
-                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50" data-aos="zoom-in-down" data-aos-delay="300">COMPANY</h1>
-                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2">
+            <div className=" px-5 py-5 border-2 border-black/90 shadow-2xl shadow-black/80 rounded-3xl " data-aos="zoom-in-down" data-aos-delay="300">
+                <h1 className="text-xl font-bold text-center text-pink-500 border-b-2 border-black/50  dark:text-white" data-aos="zoom-in-down" data-aos-delay="300">COMPANY</h1>
+                <ul className="text-center py-5 text-[16px] text-black/70 font-medium space-y-2  dark:text-white">
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="300">About us</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="500">Media Kit</li>
                   <li className="w-[50%] m-auto hover:text-pink-500 hover:border-b-2 border-pink-500" data-aos="zoom-in-down" data-aos-delay="700">Contact support</li>
@@ -88,8 +88,8 @@ export default function Footer() {
            
         </div>
       </div>
-      <div className=" mt-32 md:mt-10" data-aos="zoom-in-down" data-aos-delay="300">
-        <p className="border-t-2 border-black/70 text-black/70 text-lg text-center font-medium py-5" data-aos="zoom-in-down" data-aos-delay="500">Copy right @2025 / Setember / 24</p>
+      <div className=" mt-32 md:mt-10 " data-aos="zoom-in-down" data-aos-delay="300">
+        <p className=" dark:text-white border-t-2 border-black/70 text-black/70 text-lg text-center font-medium py-5" data-aos="zoom-in-down" data-aos-delay="500">Copy right @2025 / Setember / 24</p>
       </div>
     </div>
   )

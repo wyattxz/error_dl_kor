@@ -30,9 +30,9 @@ export default function Card_review() {
       <div className="min-h-[400px] grid grid-cols-1 gap-5 overflow-hidden bg-black/5 rounded-3xl shadow-2xl shadow-black/20">
         <div className="px-5 py-5 border-2 border-black/50 rounded-3xl">
           <h1
-            className="text-black text-center text-2xl font-bold py-2"
+            className="text-black text-center text-2xl font-bold py-2  dark:text-white"
             data-aos="zoom-in-down"
-            data-aos-delay="400"
+            data-aos-delay="400" 
           >
             Customer Review
           </h1>
@@ -51,7 +51,7 @@ export default function Card_review() {
           </div>
 
           <p
-            className="text-black/60 font-medium text-center py-4 text-sm md:text-base"
+            className="text-black/60 font-medium text-center py-4 text-sm md:text-base  dark:text-white"
             data-aos="zoom-in-down"
             data-aos-delay="700"
           >

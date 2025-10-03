@@ -6,7 +6,7 @@ export default function Mainlayout({ darkMode, setDarkMode }) {
   return (
     <>
       <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
-      <main className="pt-[80px] px-4">
+      <main className="">
         <AppRouters />
       </main>
       <Footer />
